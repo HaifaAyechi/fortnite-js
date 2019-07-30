@@ -1,7 +1,6 @@
 'use strict';
 
 const axios = require('axios');
-const lodash = require('lodash');
 const each = require('foreach');
 
 var serverConfiguration = {

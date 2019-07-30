@@ -26,7 +26,6 @@
   "homepage": "https://github.com/samhoogantink/fortnite-js#readme",
   "dependencies": {
     "axios": "0.19.x",
-    "lodash": "4.17.x",
     "foreach": "2.0.x"
   }
 }
