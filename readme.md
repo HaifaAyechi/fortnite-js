@@ -46,6 +46,9 @@ You're good to go!
 | fetchCreativeIsland | island ID     |
 | addCreativeIsland   | island ID     |
 | creativeSearch      | search input  |
+| searchUserId        | username	  |
+| getUserStatsV2      | user id	  	  |
+| getUserStatsV1      | user id & platform	  |
 
 ### Examples
 
