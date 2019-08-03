@@ -207,6 +207,52 @@ fortnite.creativeSearch = async function(query = '') {
 }
 
 /*/
+		USERS FUNCTIONS		-- 		FORTNITE USERS
+																/*/
+fortnite.searchUserId = async function(username = '') {
+	return await httpRequest('users/id', [
+		[	{	'username': username	} ]
+	]).then(data => {
+		
+		if(data.success == undefined || data.success == true) {
+			return data;
+		}
+
+		return data;
+
+	});
+}
+
+fortnite.getUserStatsV2 = async function(user_id = '') {
+	return await httpRequest('users/public/br_stats_v2', [
+		[	{	'user_id': user_id	} ]
+	]).then(data => {
+		
+		if(data.success == undefined || data.success == true) {
+			return data;
+		}
+
+		return data;
+
+	});
+}
+
+fortnite.getUserStatsV1 = async function(user_id = '', platform = '') {
+	return await httpRequest('users/public/br_stats', [
+		[	{	'user_id': user_id	} ],
+		[	{	'platform': platform	} ]
+	]).then(data => {
+		
+		if(data.success == undefined || data.success == true) {
+			return data;
+		}
+
+		return data;
+
+	});
+}
+
+/*/
 							FUNCTIONS
 																/*/
 async function httpRequest(path, query = []) {

@@ -1,11 +1,8 @@
 {
   "name": "fortnite-api-js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Fortnite API for Node.js. Get access to the daily store, the items list, battle pass items, user stats and more.",
   "main": "fortnite-js.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/samhoogantink/fortnite-js.git"
@@ -16,7 +13,8 @@
     "api",
     "theapinetwork",
     "store",
-    "items"
+    "items",
+    "epicgames"
   ],
   "author": "Sam Hoog Antink",
   "license": "ISC",
